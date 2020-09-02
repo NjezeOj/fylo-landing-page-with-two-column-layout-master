@@ -5,7 +5,8 @@ body{
     background-repeat: no-repeat; 
     background-size: 300% 130%;  /*width height*/ 
     background-position: -80rem 45rem;/*horizontal vertical*/
-    height: 100vh;
+    /*height: 600px;*/
+    height: 600px;
     
 }  
 
@@ -25,6 +26,7 @@ nav{
 
 .nav-logo{   
     width: 8rem;
+    
 }
 
 .nav-links{
@@ -139,10 +141,7 @@ nav{
 /*Get early access*/
 
 .div3{
-    background-color: hsl(238, 22%, 44%);
-    
-    
-    
+    background-color: hsl(238, 22%, 44%);    
     margin-top: 6rem;
     height: 40%;
     color: white;
@@ -207,7 +206,140 @@ footer{
     padding-top: 3.1rem;
 }
     
+/*MediaQuery section 923px, 58rem*/
 
+@media(max-width:58rem){
+
+    body{
+        /*height: 180vh;*/
+        height: 1080px;
+    }
+
+
+    .div1{   
+        background-size: 50% 90%; /*width height*/
+        background-position: 50% 0%;
+        height: 420px;
+        /*margin-left: 2rem;
+        margin-right: 2rem;*/    
+    }
+
+    .child-div1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+        padding-top:27rem;      
+    }
+
+    .div-1h{
+        line-height: 1rem;
+    }
+
+    .div-1p{
+        line-height: 0.5rem;
+    }
+
+    .child-div1>form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .searchbar1{
+        width: 24rem;
+        padding: 0.6rem 0rem 0.6rem 1rem;
+    }
+
+    .submit1{
+        margin: 1rem 0rem 0rem 0rem;        
+        width: 24rem;
+        
+    }
+
+    /*Stay Productibe*/
+
+    .div2{
+    /*margin: 20rem 2rem 0rem 2rem;  */
+        background-position: 50% 0%;
+        background-size: 50% 85%;  
+        height: 420px;     
+        margin-top: 33rem; 
+    }
+
+
+
+    .container-child{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 2rem;
+        padding-top: 28rem;
+        
+    }
+
+    .div2-p1{
+        margin-top:1rem;
+    }
+
+    .div2-p2{
+        margin-top:0.7rem;
+    }
+
+    .div2-box{
+        margin-top: 2.8rem;
+    }
+
+
+    /*Get access today*/
+
+    .div3{
+        margin-top: 38rem;
+        
+    }
+
+    .div3-contain{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div3-h{
+        padding-left: 3rem;
+    }
+
+    .searchbar2{
+        width: 24rem;
+        
+    }
+
+    .submit2{
+        
+        width: 24rem;
+        
+    }
+
+    /*footer*/
+
+    
+    
+    .footer1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 0rem;
+    }
+
+    #fylo-footer{
+        padding-left: 1.8rem;
+    }
+
+    .footer-div2{
+        margin-top: -1rem;
+    }
+
+    .footer-div3{
+        margin-top: -1rem;
+    }
+}
 
 
 
