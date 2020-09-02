@@ -3,8 +3,13 @@ body{
     margin: 2rem 0rem 0rem 0rem;
     background-image: url("../images/bg-curve-desktop.svg");
     background-repeat: no-repeat; 
-    background-size: 300% 130%;  /*width height*/ 
-    background-position: -80rem 45rem;/*horizontal vertical*/
+    background-size: 400% 130%;  /*width height*/ 
+    /*background-size: 100% 300%;*/
+    /*background-position: -80rem 45rem;/*horizontal vertical*/
+
+    /*background-position: -105rem 45rem;*/
+    background-position: 50% -380%;
+    /*background-position: 20% 80%;*/
     /*height: 600px;*/
     height: 600px;
     
@@ -43,7 +48,7 @@ nav{
     margin-top: 5rem;
     background-size: 50% 90%; /*width height*/
     background-position: 95% 0%;
-    height: 70vh;
+    height: 450px;
     /*margin-left: 2rem;
     margin-right: 2rem;*/
     
@@ -82,6 +87,7 @@ nav{
 /*Stay Productive*/
 
 .div2{
+    
     /*margin: 20rem 2rem 0rem 2rem;  */
     margin-top: 20rem;
     background-image: url("../images/illustration-2.svg");
@@ -90,6 +96,8 @@ nav{
     background-repeat: no-repeat;
     
 }
+
+
 
 .div2-p1{
     margin-top: 2rem;
@@ -213,6 +221,7 @@ footer{
     body{
         /*height: 180vh;*/
         height: 1080px;
+        background-position: 50% -300%;
     }
 
 
