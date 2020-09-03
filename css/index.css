@@ -215,10 +215,10 @@ footer{
     
 /*MediaQuery section 923px, 58rem*/
 
-@media(max-width:923px){
+@media(max-width:58rem){
 
     body{
-        width:70%;
+        
         /*height: 180vh;*/
         height: 1080px;
         background-position: 50% -300%;
