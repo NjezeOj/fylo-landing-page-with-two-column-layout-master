@@ -218,7 +218,7 @@ footer{
 @media(max-width:923px){
 
     body{
-        
+        width:70%;
         /*height: 180vh;*/
         height: 1080px;
         background-position: 50% -300%;
