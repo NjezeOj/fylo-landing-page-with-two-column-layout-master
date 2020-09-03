@@ -215,7 +215,7 @@ footer{
     
 /*MediaQuery section 923px, 58rem*/
 
-/*@media(max-width:58rem){
+@media(max-width:58rem){
 
     body{
         
@@ -348,7 +348,7 @@ footer{
     .footer-div3{
         margin-top: -1rem;
     }
-*/
+
 
 
 
